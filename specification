@@ -1,0 +1,20 @@
+Specification for Event Planning App
+
+Overview
+This document outlines the specifications for the development of an event planning application. 
+
+Features
+User Registration: Users should be able to create an account and log in to the application.
+Event Creation: Users should be able to create new events and set event details such as date, time, location, and type of event.
+Guest Management: Users should be able to manage guests by adding, editing, or deleting guest details such as name, email, and phone number.
+Budget Management: Users should be able to manage event budget by setting a budget and tracking expenses.
+Vendor Management: Users should be able to manage vendors by adding, editing, or deleting vendor details such as name, contact information, and payment information.
+Calendar View: Users should be able to view events on a calendar, including event details such as date, time, and location.
+
+Technologies
+
+Programming Language: React Native.
+Database: Firebase.
+
+Conclusion
+This document outlines the specifications for the development of an event planning application. By incorporating these features and technologies, the application should be able to provide users with a comprehensive tool for planning and organizing events.
