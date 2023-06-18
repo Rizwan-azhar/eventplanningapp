@@ -17,6 +17,8 @@ export const Colors = {
 
 const { primary, secondary, tertiary, darkLight, brand, green, red } = Colors;
 
+
+
 export const StyledContainer = styled.View`
   flex: 1;
   padding: 25px;
@@ -35,6 +37,8 @@ export const WelcomeContainer = styled(InnerContainer)`
   padding-top: 10px;
   justify-content: center;
 `;
+
+
 
 export const PageLogo = styled.Image`
   width: 250px;
