@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { StatusBar } from 'expo-status-bar';
 
-// formik
 import { Formik } from 'formik';
 
 import {
@@ -26,25 +25,18 @@ import {
 } from './../components/styles';
 import { View, TouchableOpacity, ActivityIndicator } from 'react-native';
 
-//colors
 const { darkLight, brand, primary } = Colors;
 
-// icon
 import { Octicons, Ionicons } from '@expo/vector-icons';
 
-// Datetimepicker
 import DateTimePicker from '@react-native-community/datetimepicker';
 
-// keyboard avoiding view
 import KeyboardAvoidingWrapper from './../components/KeyboardAvoidingWrapper';
 
-// api client
 import axios from 'axios';
 
-// Async storage
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// credentials context
 import { CredentialsContext } from './../components/CredentialsContext';
 
 const Signup = ({ navigation }) => {
